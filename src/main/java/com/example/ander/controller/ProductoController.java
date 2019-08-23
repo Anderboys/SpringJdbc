@@ -8,9 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// rest
 @RestController
-@RequestMapping("api")
+
+@RequestMapping("api") //mapeo principal
 public class ProductoController {
     private static final Log LOG = LogFactory.getLog(ProductoController.class);
 
