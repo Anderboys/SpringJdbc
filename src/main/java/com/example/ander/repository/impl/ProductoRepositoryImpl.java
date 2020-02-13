@@ -14,6 +14,7 @@ import java.util.List;
 public class ProductoRepositoryImpl implements ProductoRepository {
 
     private static final Log LOG = LogFactory.getLog(ProductoRepositoryImpl.class);
+    
     private JdbcTemplate jdbcTemplate;
 
     @Autowired

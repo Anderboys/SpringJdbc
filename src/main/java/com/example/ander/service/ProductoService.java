@@ -6,12 +6,15 @@ import java.util.List;
 
 public interface ProductoService {
 
-    List<Producto> findAll();
-    List<Producto> FindByName(String nombre);
+	List<Producto> findAll();
 
-    void delete (long id);
-    void insert(Producto producto);
+	List<Producto> FindByName(String nombre);
 
-    boolean buscarByIdBoolean(long id);
-    boolean buscarByNameBoolean(String nombre);
+	void delete(long id);
+
+	void insert(Producto producto);
+
+	boolean buscarByIdBoolean(long id);
+
+	boolean buscarByNameBoolean(String nombre);
 }
